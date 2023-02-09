@@ -12,7 +12,7 @@
 /* N - The "N" in Top N - how many to show       */ 
 /* CATEGORY - across which category?             */ 
 /*************************************************/
-%let data=SASHELP.CARS
+%let data=SASHELP.CARS;
 %let report=Model;
 %let measure=MPG_City;
 %let measureformat=%str(format=BEST6.);
